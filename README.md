@@ -59,6 +59,10 @@ uvicorn app.main:app --reload
 
 Without the key, StackPilot remains fully testable and returns a clearly labelled local architecture review. With a key, it calls the OpenAI Responses API for a schema-aware design review. GPT-5.6 is a capable choice for complex coding and reasoning workflows according to the current [OpenAI model guide](https://developers.openai.com/api/docs/models).
 
+## Deployment
+
+This repository includes [`render.yaml`](render.yaml) for a one-click Render deployment. Create a Render Web Service from this GitHub repository; the service will run with the free plan, install from `requirements.txt`, and start StackPilot with Uvicorn. Set `OPENAI_API_KEY` in Render only if you want live GPT-5.6 reviews—judges can use the full offline flow without it.
+
 ## Run the generated application
 
 After downloading and extracting an export:
