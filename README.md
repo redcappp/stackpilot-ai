@@ -39,8 +39,8 @@ For the most impressive version, upload a workbook with `Customers`, `Orders`, a
 - Optional: an OpenAI API key, for live GPT-5.6 architecture reviews
 
 ```powershell
-git clone <YOUR-REPOSITORY-URL>
-cd OPEN_AI_HACKATHON
+git clone https://github.com/redcappp/stackpilot-ai.git
+cd stackpilot-ai
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt

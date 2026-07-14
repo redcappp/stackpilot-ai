@@ -3,7 +3,7 @@
 ## Required fields
 
 - **Category:** Developer tools
-- **Repository URL:** `REPLACE_WITH_PUBLIC_GITHUB_URL`
+- **Repository URL:** `https://github.com/redcappp/stackpilot-ai`
 - **Live demo URL (optional):** `REPLACE_WITH_DEPLOYED_URL`
 - **Codex feedback session ID:** `REPLACE_WITH_REAL_/feedback_SESSION_ID`
 
