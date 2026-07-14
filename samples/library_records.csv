@@ -1,0 +1,4 @@
+Book ID,Title,Author,Published Date,ISBN,Available
+1,The Last Algorithm,Ada Ray,2024-04-12,9780000000001,true
+2,Designing Reliable Systems,Noah Kim,2023-09-20,9780000000002,true
+3,Data Stories,Leila Chen,2022-01-15,9780000000003,false
